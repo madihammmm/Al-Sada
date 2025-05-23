@@ -36,10 +36,10 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-white">
+              <a href="" className="text-gray-300 hover:text-white">
                 <Facebook className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white">
+              <a href="https://www.instagram.com/alsada_perfume/#" className="text-gray-300 hover:text-white">
                 <Instagram className="w-6 h-6" />
               </a>
               <a href="#" className="text-gray-300 hover:text-white">

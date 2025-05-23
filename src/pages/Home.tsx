@@ -9,7 +9,7 @@ const Home = () => {
         className="h-[600px] bg-cover bg-center flex items-center"
         style={{
           backgroundImage:
-            'url("https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg")',
+            'url("/images/bg.jpg")',
           backgroundBlendMode: "overlay",
           backgroundColor: "rgba(0, 0, 0, 0.4)",
         }}
@@ -38,22 +38,34 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             {
-              name: "Al Sada Special Offer",
-              price: "$199.99",
+              name: "Al Sada grey",
+              price: "18 ﷼",
               image:
-                "https://images.pexels.com/photos/965990/pexels-photo-965990.jpeg",
+                "/images/1.jpg",
+            },
+             {
+              name: "Al Sada Black",
+              price: "19 ﷼ ",
+              image:
+                "/images/2.jpg",
+            },
+             {
+              name: "Al Sada Red",
+              price: "16 ﷼",
+              image:
+                "/images/3.jpg",
             },
             {
-              name: "Royal Collection",
-              price: "$299.99",
+              name: "Al sada white",
+              price: "18 ﷼",
               image:
-                "https://images.pexels.com/photos/965992/pexels-photo-965992.jpeg",
+                "/images/4.jpg",
             },
             {
-              name: "Premium Edition",
-              price: "$249.99",
+              name: "Premium Bundle",
+              price: "36.400 ﷼",
               image:
-                "https://images.pexels.com/photos/965994/pexels-photo-965994.jpeg",
+                "/images/5.jpg",
             },
           ].map((product, index) => (
             <div
@@ -87,10 +99,8 @@ const Home = () => {
             <div>
               <h2 className="text-3xl font-bold mb-4">About Al Sada</h2>
               <p className="text-gray-600 mb-6">
-                Al Sada Perfume brings you the finest fragrances from around the
-                world. Our collection features exclusive scents crafted by
-                master perfumers, ensuring a unique and luxurious experience for
-                our discerning customers.
+               Echo Perfumes is an Omani brand specialized in the manufacture and sale of luxury perfumes, established with a vision that combines originality and modernity, to provide distinguished fragrant experiences that suit the high Arab taste. We work with passion to create unique formulas of the finest essential oils and carefully selected natural materials, to create fragrances that express the personality, and leave an unforgettable trace.
+               At Echo Perfumes, we believe that perfume is not just a smell, but an identity and a story that is told. Therefore, we are keen to provide perfumes that express high taste and excellence, whether in our luxury packaging or in the quality of their long-lasting ingredients
               </p>
               <Link
                 to="/about"
@@ -101,7 +111,7 @@ const Home = () => {
             </div>
             <div>
               <img
-                src="https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg"
+                src="/images/bg.jpg"
                 alt="About Al Sada"
                 className="rounded-lg shadow-md"
               />

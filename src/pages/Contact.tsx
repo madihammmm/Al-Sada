@@ -20,11 +20,12 @@ const Contact = () => {
             <div className="flex items-start">
               <MapPin className="w-6 h-6 mr-4 text-gray-600" />
               <div>
-                <h3 className="font-bold">Address</h3>
+                <h3 className="font-bold">Whatsapp</h3>
                 <p className="text-gray-600">
-                  123 Perfume Street
+                  https://wa.me/message/3GJW3OFDRU5SO1
+                
                   <br />
-                  Dubai, UAE
+              
                 </p>
               </div>
             </div>
@@ -33,7 +34,7 @@ const Contact = () => {
               <Phone className="w-6 h-6 mr-4 text-gray-600" />
               <div>
                 <h3 className="font-bold">Phone</h3>
-                <p className="text-gray-600">+971 123 456 789</p>
+                <p className="text-gray-600">  0096896313031</p>
               </div>
             </div>
 

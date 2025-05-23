@@ -10,7 +10,7 @@ const About = () => {
 
         <div className="mb-12">
           <img
-            src="https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg"
+            src="/images/bg.jpg"
             alt="Al Sada Perfume Store"
             className="w-full h-[400px] object-cover rounded-lg shadow-md mb-8"
           />

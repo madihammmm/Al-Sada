@@ -14,9 +14,15 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link to="/" className="text-2xl font-bold">
-              Al Sada
-            </Link>
+           <Link to="/" className="flex items-center space-x-2">
+  <img
+    src="/images/logo.jpg" // Replace with your logo path
+    alt="Al Sada Logo"
+    className="h-16 w-32 sm:h-15"
+  />
+  
+</Link>
+
           </div>
 
           {/* Desktop Navigation */}
